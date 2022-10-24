@@ -258,3 +258,50 @@ html{
    background: linear-gradient(125deg, #767677);
   
   }
+
+.media-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 300px;
+	align-content: center;
+	align-items: flex-start;
+	padding: 10px;
+}
+
+.media-caption {
+	height: 60%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+.gif-snippet {
+	display: none;
+}
+
+.media-caption:hover .video-snippet{
+	display: none;	
+}
+
+.media-caption:hover .gif-snippet{
+	display: block;	
+}
+
+.media-caption > img {
+	width: 100%;
+}
+
+.media-title {
+ height: 20%;
+ flex-wrap: wrap;
+ font-size: medium;
+ font-weight: bold;
+ 
+}
+
+.media-details {
+	height: 10%;
+	font-size: smaller;
+}
