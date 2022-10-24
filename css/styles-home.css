@@ -259,6 +259,15 @@ html{
   
   }
 
+/*Media containers*/
+
+.main-media-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
 .media-container {
 	display: flex;
 	flex-direction: column;
