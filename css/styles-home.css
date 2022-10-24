@@ -12,7 +12,11 @@ a {
 	text-decoration: none;
 	color: #000;
 }
-
+.dividir{
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+}
 .contenedor {
 	width: 100%;
 	min-height: 100vh;
@@ -189,7 +193,8 @@ display: grid;
 height: 680px;
 width: 90%;
 overflow: hidden;
-
+width: 25vw;
+display: block;
 
 }
 
@@ -237,7 +242,7 @@ color: #828282;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+	
 
 }
 
@@ -262,6 +267,7 @@ html{
 /*Media containers*/
 
 .main-media-container {
+	width: 75vw;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
